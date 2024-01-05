@@ -16,7 +16,7 @@
 .header-contaier__logo {
     font-family: 'roboto', sans-serif;
     color: #1B2020;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 900;
 }
 
@@ -27,12 +27,12 @@
     overflow: hidden;
     font-family: 'roboto', sans-serif;
     color: #1B2020;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .header-contaier__menu-item {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .banner-section__container {
@@ -62,24 +62,24 @@
 .banner-section__text {
     font-family: 'roboto', sans-serif;
     color: #ffff;
-    font-size: 1rem;
+    font-size: 1.6rem;
 }
 
 .banner-section__button {
-    height: 32px;
-    width: 100px;
+    height: 45px;
+    width: 150px;
     background: #CBF3F0;
     border: none;
-    margin-top: 32px;
+    margin-top: 100px;
+    cursor: pointer;
 }
 
 .what-is-popit__container {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    height: 350px;
     width: 100%;
     align-items: center;
+    padding: 90px 0;
 }
 
 .what-is-popit__title {
@@ -91,7 +91,8 @@
 .what-is-popit__text {
     font-family: 'roboto', sans-serif;
     font-size: 1rem;
-    max-width: 70%;
+    max-width: 56%;
+    text-align: center;
 }
 
 .choose-popit__main-container {
@@ -127,7 +128,7 @@
     font-family: 'roboto', sans-serif;
     color: #1B2020;
     font-size: 0.8rem;
-    font-weight: 900;
+    font-weight: 700;
     align-self: center;
     margin-top: 16px;
 }
@@ -142,18 +143,20 @@
     font-weight: 700;
     font-size: 0.8rem;
     margin-top: 16px;
+    cursor: pointer;
 }
 
 .rules-popit__contianer {
     position: relative;
     display: flex;
     width: 100%;
+    padding: 126px 0;
     justify-content: space-around;
     align-items: center;
 }
 
 .rules-popit__tex-container {
-    width: 500px;
+    max-width: 700px;
     z-index: 1;
 }
 
@@ -169,16 +172,17 @@
 .rules-popit__text {
     font-family: 'roboto', sans-serif;
     color: #1B2020;
-    font-size: 1rem;
+    font-size: 1.14rem;
     align-self: center;
 }
 
 .rules-popit__image {
     z-index: 1;
+    margin-left: -300px;
 }
 .rules-popit__image-bg {
     position: absolute;
-    top: 10%;
+    top: 22%;
 }
 
 .footer-container {
@@ -187,19 +191,15 @@
     align-items: center;
     background: #333333;
     height: 80px;
-    padding: 0 32px;
-    margin-top: 100px;
+    padding: 0 45px;
     color: #ffff;
 }
 
-.footer-contaier__menu-options {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.footer-contaier__menu-item{
+    cursor: pointer;
 }
 
-.footer-contaier__menu-item {
-    display: inline-block;
-    margin-right: 20px;
+.footer-contaier__menu-item--first {
+   font-weight: bold;
+   cursor: pointer;
 }
