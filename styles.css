@@ -156,7 +156,7 @@
 }
 
 .rules-popit__tex-container {
-    max-width: 700px;
+    max-width: 600px;
     z-index: 1;
 }
 
@@ -178,7 +178,7 @@
 
 .rules-popit__image {
     z-index: 1;
-    margin-left: -300px;
+    margin-left: -30%;
 }
 .rules-popit__image-bg {
     position: absolute;
